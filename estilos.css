@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(124, 95, 239);
+}
+header {
+  color: white;
+  text-align: center;
+  padding: 16px 0;
+}
+.subtitulo {
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+/* Estilo para la letra "D" en "DaLuMa" */
+.amarillo {
+  color: yellow;
+}
+.rojo {
+  color: red;
+}
+.azul {
+  color: blue;
+}
+section {
+  width: 95%;
+  border: 1px solid blue;
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 1rem auto;
+  background-color: rgb(127, 167, 212);
+  text-align: center;
+}
+section h2 {
+  font-family: "Sedgwick Ave Display", cursive;
+  color: blueviolet;
+  letter-spacing: 5px;
+}
+.producto {
+  text-align: center;
+  margin: 16px auto 0;
+  width: 90%;
+  max-width: 450px;
+  /* height: 250px; */
+  border: solid red;
+}
+.producto img {
+  max-width: 100%;
+  /* height: 100%; */
+  border-radius: 10px;
+}
+.producto__precio {
+  font-size: 1.5rem;
+  color: blue;
+  margin: 0.5rem 0;
+}
+.producto__precio sup {
+  font-size: 0.8rem;
+  vertical-align: super;
+}
+.producto__descripcion {
+  font-size: 16px;
+  color: #ffffff;
+}
+.producto__whatsapp {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  margin-top: 16px;
+  border-radius: 5px;
+}
+.producto__minimo {
+  font-size: 0.8rem;
+  color: #d03737;
+  margin-top: 0.5rem;
+}
+.precio{
+  text-align: center;
+  color: #f0e367;
+  margin: 10px;
+}
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: var(--color-secundario);
+  color: white;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+.linea-separadora {
+  border: none;
+  border-top: 1px solid #ff0586;
+  margin: 16px 0;
+}
+/* boton de whatsapp contacto */
+.container {
+  position: relative;
+}
+.container a {
+  border: solid red;
+  position: fixed;
+  bottom: 90px;
+  right: 0;
+  display: block;
+  width: 10rem;
+  background-color: #25d366;
+  color: #fff;
+  text-align: center;
+  padding: 0.625rem;
+  border-radius: 0.3125rem;
+  text-decoration: none;
+  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+
+  /* Reducir tamaño en un 30% */
+  transform: scale(0.7);
+
+  /* Transiciones para suavizar los cambios */
+  transition: color 0.3s, border 0.3s, transform 1s;
+}
+
+.container :hover {
+  /* Cambiar el color del texto al violeta suave */
+  color: #8a3ab9;
+
+  /* Cambiar el estilo del borde al dotted color azul suave */
+  border: 4px dotted #007bff;
+
+  /* Recuperar su tamaño original */
+  transform: scale(1);
+}
