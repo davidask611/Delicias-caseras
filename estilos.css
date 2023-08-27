@@ -48,8 +48,6 @@ section h2 {
   margin: 16px auto 0;
   width: 90%;
   max-width: 450px;
-  /* height: 250px; */
-  border: solid red;
 }
 .producto img {
   max-width: 100%;
@@ -83,7 +81,7 @@ section h2 {
   color: #d03737;
   margin-top: 0.5rem;
 }
-.precio{
+.precio {
   text-align: center;
   color: #f0e367;
   margin: 10px;
@@ -97,6 +95,10 @@ footer {
 footer a {
   color: white;
   text-decoration: none;
+}
+.email,
+.producto__whatsapp img {
+  vertical-align: middle;
 }
 .linea-separadora {
   border: none;
