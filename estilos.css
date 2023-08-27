@@ -142,3 +142,15 @@ footer a {
   /* Recuperar su tamaño original */
   transform: scale(1);
 }
+@media screen and (min-width: 768px) {
+  section {
+    width: 60%;
+    border: 1px solid blue;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem auto;
+    background-color: rgb(127, 167, 212);
+    text-align: center;
+    transition: all 1000ms;
+  }
+}
