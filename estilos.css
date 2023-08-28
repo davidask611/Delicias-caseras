@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
-
+/*para titulo*/
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Pacifico&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +14,11 @@ header {
   color: white;
   text-align: center;
   padding: 16px 0;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  /* font-family: "Pacifico", cursive; */
+  font-size: 50px;
 }
 .subtitulo {
   font-size: 2rem;
