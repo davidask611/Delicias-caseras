@@ -60,6 +60,13 @@ section h2 {
   /* height: 100%; */
   border-radius: 10px;
 }
+.bombones__precio{
+  display: flex;
+  justify-content: center;
+}
+.bombones__precio div{
+  width: 50%;
+}
 .producto__precio {
   font-size: 1.5rem;
   color: blue;
@@ -87,9 +94,18 @@ section h2 {
   color: #d03737;
   margin-top: 0.5rem;
 }
+.localidades{
+  display: flex;
+  width: 98%;
+  margin: auto;
+}
+.localidades__localidad{
+  width: 50%;
+  color: #f0e367;
+}
 .precio {
   text-align: center;
-  color: #f0e367;
+  color: #1b1010;
   margin: 10px;
 }
 footer {
@@ -158,5 +174,14 @@ footer a {
     background-color: rgb(127, 167, 212);
     text-align: center;
     transition: all 1000ms;
+  }
+  .localidades{
+    display: flex;
+    width: 60%;
+    margin: 20px auto;
+  }
+  .localidades__localidad{
+    width: 50%;
+    color: #f0e367;
   }
 }
