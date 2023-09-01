@@ -111,11 +111,12 @@ section h2 {
 }
 .localidades{
   display: flex;
-  width: 98%;
+  width: 92%;
   margin: auto;
 }
 .localidades__localidad{
-  width: 50%;
+  width: 48%;
+  margin: auto;
   color: #f0e367;
 }
 .precio {
