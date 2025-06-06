@@ -29,17 +29,9 @@ body {
   font-weight: bold;
 }
 
-.subtitulo .amarillo {
-  color: #ffd600;
-}
-
-.subtitulo .rojo {
-  color: #ff5252;
-}
-
-.subtitulo .azul {
-  color: #2979ff;
-}
+.subtitulo .amarillo { color: #ffd600; }
+.subtitulo .rojo { color: #ff5252; }
+.subtitulo .azul { color: #2979ff; }
 
 .header__redes {
   display: flex;
@@ -144,8 +136,8 @@ main {
 
 .producto img {
   border-radius: 8px;
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
   margin-bottom: 1rem;
   box-shadow: 0 2px 8px #0001;
@@ -177,7 +169,6 @@ main {
   transition: background 0.2s, transform 0.2s;
   cursor: pointer;
 }
-
 .btn-whatsapp:hover {
   background: #128c7e;
   transform: scale(1.05);
@@ -198,7 +189,6 @@ footer {
   #productos-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-
   .localidades {
     gap: 1.5rem;
     padding: 1rem;
@@ -209,14 +199,12 @@ footer {
 
 @media (max-width: 600px) {
   #productos-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
-
   .header__redes {
     flex-direction: column;
     gap: 1rem;
   }
-
   .localidades {
     flex-direction: column;
     gap: 0.5rem;
