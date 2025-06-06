@@ -28,23 +28,11 @@ body {
   color: #a65c00;
 }
 
-.subtitulo {
+.slogan {
   margin: 0.5rem 0 1rem 0;
-  font-size: 1.8rem;
-  letter-spacing: 2px;
-  font-weight: bold;
-}
-
-.subtitulo .amarillo {
-  color: #ffd600;
-}
-
-.subtitulo .rojo {
-  color: #ff5252;
-}
-
-.subtitulo .azul {
-  color: #2979ff;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  color: #6d4100;
 }
 
 .header__redes {
@@ -91,39 +79,39 @@ body {
   box-shadow: 0 1px 6px #0001;
 }
 
-.localidades {
-  display: flex;
-  justify-content: center;
-  gap: 4rem;
-  margin: 1.5rem auto 1.5rem auto;
-  max-width: 650px;
-  background: #fff3e0;
+/* Bloque publicidad */
+.publicidad {
+  margin: 2rem auto 0 auto;
+  max-width: 600px;
+  background: #e6f5e6;
   border-radius: 18px;
   box-shadow: 0 1px 8px #0002;
-  padding: 1.5rem 1.5rem 1rem 1.5rem;
-  width: calc(100% - 3rem);
-  /* Asegura que no exceda el ancho del viewport */
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  text-align: center;
+  border: 2px solid #81c784;
+}
+.publicidad h2 {
+  margin-top: 0;
+  color: #388e3c;
+  font-size: 1.35rem;
+  font-weight: bold;
+}
+.publicidad p {
+  color: #4e342e;
+  font-size: 1.13rem;
+  margin-bottom: 1.2rem;
 }
 
-.localidades__localidad {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+/* Publicidad electricista: color diferente */
+.publicidad-electricista {
+  background: #e3f2fd;
+  border: 2px solid #64b5f6;
 }
-
-.localidades__localidad li {
-  background: #ffe082;
-  color: #6d4100;
-  margin-bottom: 0.8rem;
-  padding: 0.7rem 1.2rem;
-  border-radius: 14px;
-  font-size: 1.08rem;
-  box-shadow: 0 1px 2px #0001;
-  transition: background 0.18s;
+.publicidad-electricista h2 {
+  color: #1976d2;
 }
-
-.localidades__localidad li:hover {
-  background: #ffd54f;
+.publicidad-electricista p {
+  color: #1a237e;
 }
 
 main {
@@ -214,13 +202,12 @@ footer {
     font-size: 2rem;
   }
 
-  .subtitulo {
-    font-size: 1.5rem;
+  .slogan {
+    font-size: 1.1rem;
   }
 
-  .localidades {
-    flex-direction: column;
-    gap: 2rem;
+  .publicidad {
+    padding: 1.2rem 0.5rem;
   }
 
   #productos-grid {
@@ -231,5 +218,4 @@ footer {
     width: 150px;
     height: 150px;
   }
-
 }

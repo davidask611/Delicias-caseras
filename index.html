@@ -4,52 +4,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Delicias Caseras - Productos</title>
+  <title>Delicias Caseras | Postres caseros, budines y tortas a domicilio</title>
+  <meta name="description" content="Encontrá los postres más ricos y caseros para acompañar tus mates o café. Budines, tortas, bocados dulces y pan de pancho, ¡con entregas en zona sur!">
+  <meta name="keywords" content="postres caseros, budines, tortas, bocados dulces, pan de pancho, delicias caseras, zona sur, pastelería artesanal, entrega a domicilio">
   <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
   <header class="header">
     <h1>Delicias Caseras</h1>
-    <h2 class="subtitulo">
-      <span class="amarillo">Da</span><span class="rojo">Lu</span><span class="azul">Ma</span>
-    </h2>
+    <p class="slogan">Encontrá los postres más ricos para los mates o café</p>
     <div class="header__redes">
       <a href="https://www.instagram.com/delicias_.daluma?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank"
         rel="noopener noreferrer">
-        <img src="img/instagram.png" alt="icono-de-instagram">Instagram
+        <img src="img/instagram.png" alt="Instagram de Delicias Caseras">Instagram
       </a>
       <a href="https://www.facebook.com/profile.php?id=61550997084165" target="_blank" rel="noopener noreferrer">
-        <img src="img/facebook.png" alt="icono-de-facebook">Facebook
+        <img src="img/facebook.png" alt="Facebook de Delicias Caseras">Facebook
       </a>
     </div>
   </header>
   <main>
-    <section id="productos-grid"></section>
+    <section id="productos-grid">
+      <!-- Aquí se carga el JS de productos -->
+    </section>
   </main>
-  <p class="entregas-title">
-    &#128523; Localidades de entregas &#128523;
-  </p>
-  <aside class="localidades">
-    <ul class="localidades__localidad">
-      <li>F.Varela (Fuente)</li>
-      <li>Temperley</li>
-      <li>Lanus</li>
-      <li>Lomas de Zamora</li>
-      <li>Bernal Oeste</li>
-      <li>Solano (Coppel)</li>
-    </ul>
-    <ul class="localidades__localidad">
-      <li>Banfield</li>
-      <li>Chingolo</li>
-      <li>Cruce Varela</li>
-      <li>Quilmes (Estacion)</li>
-      <li>Don Bosco</li>
-      <li>Pasco y Donato</li>
-    </ul>
-  </aside>
+  
+  <section class="publicidad" aria-label="Publicidad corte de pasto">
+    <h2>¡Se corta pasto y podo árboles!</h2>
+    <p><strong>Luis</strong><br>Contactame para servicios de jardinería. <br>
+    <a class="btn-whatsapp"
+       href="https://wa.me/5491124056199?text=Buenas%20vengo%20de%20Delicias-caseras%20quisiera%20el%20servicio%20de%20cortar%20pasto/arbol"
+       target="_blank" rel="noopener noreferrer">
+      Contactar por WhatsApp
+    </a>
+  </section>
+
+  <section class="publicidad publicidad-electricista" aria-label="Publicidad electricista domiciliario">
+    <h2>Servicio de electricista domiciliario</h2>
+    <p><strong>David</strong><br>
+      Reparación / Mantenimiento / Instalaciones nuevas</p>
+    <a class="btn-whatsapp"
+       href="https://wa.me/541161672700?text=Hola%20vengo%20de%20Delicias-caseras%20y%20quisiera%20consultar%20por%20servicio%20de%20electricista"
+       target="_blank" rel="noopener noreferrer">
+      Contactar por WhatsApp
+    </a>
+  </section>
+
   <footer>
     <p>&copy; 2025 Delicias Caseras</p>
+    <p>Desarrollado con <span style="color: #e53935;">❤️</span> por David-DW</p>
   </footer>
   <script src="productos.js"></script>
 </body>
