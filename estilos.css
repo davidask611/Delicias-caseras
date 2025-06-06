@@ -234,9 +234,8 @@ footer {
     padding-right: 0.5rem;
   }
 
-  .header,
-  footer,
-  .producto-grid {
+  /* .header,
+  footer {
     left: 0;
     right: 0;
     margin-left: 0;
@@ -244,5 +243,5 @@ footer {
     width: 100vw;
     max-width: 100vw;
     border-radius: 0;
-  }
+  } */
 }
