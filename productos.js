@@ -7,6 +7,8 @@ const productos = [
   { nombre: "Pastaflora", precio: "$9000", imagen: "Pasta_frola.jpg" },
   { nombre: "Budin de banana con nuez", precio: "$6500", imagen: "budin.jpg" },
   { nombre: "Cupcakes de zanahoria y naranja con nuez", precio: "$8500 La docena", imagen: "Cupcakes de zanahoria y naranja con nuez.jpg" },
+  { nombre: "tarta de durazno", precio: "$6500", imagen: "tarta de durazno.jpg" },
+  { nombre: "tarta de ricota", precio: "$6500", imagen: "tarta de ricota.jpg" },
   // Puedes agregar más productos aquí
 ];
 
