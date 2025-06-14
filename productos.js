@@ -9,12 +9,11 @@ const productos = [
   { nombre: "Cupcakes de zanahoria y naranja con nuez", precio: "$8500 La docena", imagen: "Cupcakes de zanahoria y naranja con nuez.jpg" },
   { nombre: "tarta de durazno", precio: "$17.000", imagen: "tarta de durazno.jpg" },
   { nombre: "tarta de ricota", precio: "$17.000", imagen: "tarta de ricota.jpg" },
-  { nombre: "Tarta crocante de manzana", precio: "$6500", imagen: "Tarta crocante de manzana.jpg" },
+  // { nombre: "Tarta crocante de manzana", precio: "$6500", imagen: "Tarta crocante de manzana.jpg" },
   { nombre: "Budin de limón con glase", precio: "$6000", imagen: "Budin de limón con glase.jpg" },
-  { nombre: "Pancitos saborizados", precio: "$6500", imagen: "Pancitos saborizados.jpg" },
+  // { nombre: "Pancitos saborizados", precio: "$6500", imagen: "Pancitos saborizados.jpg" },
   { nombre: "Pancitos chips", precio: "$6500", imagen: "Pancitos chips.jpg" },
-  { nombre: "Scon de queso", precio: "$6500", imagen: "Scon de queso.jpg" },
-  { nombre: "Cupcakes de zanahoria y naranja con nuez", precio: "$700", imagen: "Cupcakes de zanahoria y naranja con nuez.jpg" },
+  { nombre: "Pan arabe", precio: "$1000 6 unidades", imagen: "Pan arabe.jpg" },
   // Puedes agregar más productos aquí 
 ];
 
@@ -43,6 +42,7 @@ productos.forEach(prod => {
 const saludables = [
   { nombre: "Budin de banana con nuez con harina integral", precio: "$7500", imagen: "Budin de banana con nuez.jpg" },
   { nombre: "Galletas de avena con harina integral", precio: "$3000", imagen: "Galletas de avena y harina integral.jpg" },
+  { nombre: "Cupcakes de zanahoria y naranja con nuez con harina integral", precio: "$700", imagen: "Cupcakes de zanahoria y naranja con nuez.jpg" },
   // Aquí puedes agregar más productos saludables si deseas
 ];
 
