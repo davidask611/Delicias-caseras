@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Delicias Caseras | Postres caseros, budines y tortas a domicilio</title>
-  <meta name="description" content="Encontrá los postres más ricos y caseros para acompañar tus mates o café. Budines, tortas, bocados dulces y pan de pancho, ¡con entregas en zona sur!">
-  <meta name="keywords" content="postres caseros, budines, tortas, bocados dulces, pan de pancho, delicias caseras, zona sur, pastelería artesanal, entrega a domicilio">
+  <meta name="description"
+    content="Encontrá los postres más ricos y caseros para acompañar tus mates o café. Budines, tortas, bocados dulces y pan de pancho, ¡con entregas en zona sur!">
+  <meta name="keywords"
+    content="postres caseros, budines, tortas, bocados dulces, pan de pancho, delicias caseras, zona sur, pastelería artesanal, entrega a domicilio">
   <link rel="stylesheet" href="estilos.css">
 </head>
 
@@ -14,14 +16,35 @@
   <header class="header">
     <h1>Delicias Caseras</h1>
     <p class="slogan">Encontrá los postres más ricos para los mates o café.</p>
-    <p>Tambien tenemos opciones aptas para <strong>deportistas con harina integral</strong>. <br><a href="#comida-saludable">Ver opciones saludables</a></p>
+    <p>Tambien tenemos opciones aptas para <strong>deportistas con harina integral</strong>. <br><a
+        href="#comida-saludable">Ver opciones saludables</a></p>
+
+    <!-- Carrito de compras -->
+    <div class="carrito-container">
+      <button id="btn-carrito" class="btn-carrito">
+        🛒 Carrito (<span id="contador-carrito">0</span>)
+      </button>
+      <div id="modal-carrito" class="modal-carrito">
+        <div class="modal-contenido">
+          <h3>Tu Pedido</h3>
+          <div id="items-carrito" class="items-carrito"></div>
+          <div class="total-carrito">
+            <strong>Total:</strong> <span id="total-carrito">$0</span>
+          </div>
+          <button id="btn-enviar-whatsapp" class="btn-whatsapp">
+            Enviar pedido por WhatsApp
+          </button>
+          <button id="btn-cerrar-carrito" class="btn-cerrar">Cerrar</button>
+        </div>
+      </div>
+    </div>
   </header>
   <main>
     <section id="productos-grid">
       <!-- Aquí se carga el JS de productos -->
     </section>
   </main>
-  
+
   <section class="publicidad" aria-label="Publicidad corte de pasto">
     <h2>¡Se corta pasto!</h2>
     <p>
@@ -29,8 +52,8 @@
       Contactame para servicios de jardinería.
     </p>
     <a class="btn-whatsapp"
-       href="https://wa.me/5491124056199?text=Buenas%20vengo%20de%20Delicias-caseras%20quisiera%20el%20servicio%20de%20cortar%20pasto/arbol"
-       target="_blank" rel="noopener noreferrer">
+      href="https://wa.me/5491124056199?text=Buenas%20vengo%20de%20Delicias-caseras%20quisiera%20el%20servicio%20de%20cortar%20pasto/arbol"
+      target="_blank" rel="noopener noreferrer">
       Contactar por WhatsApp
     </a>
   </section>
@@ -42,8 +65,8 @@
       Reparación / Mantenimiento / Instalaciones nuevas
     </p>
     <a class="btn-whatsapp"
-       href="https://wa.me/541161672700?text=Hola%20vengo%20de%20Delicias-caseras%20y%20quisiera%20consultar%20por%20servicio%20de%20electricista"
-       target="_blank" rel="noopener noreferrer">
+      href="https://wa.me/541161672700?text=Hola%20vengo%20de%20Delicias-caseras%20y%20quisiera%20consultar%20por%20servicio%20de%20electricista"
+      target="_blank" rel="noopener noreferrer">
       Contactar por WhatsApp
     </a>
   </section>
