@@ -1,6 +1,6 @@
 // Array de productos
 const productos = [
-  { nombre: "Torta arco iris", precio: "$50.000", imagen: "Torta_arco_iris.jpg" },
+  // { nombre: "Torta arco iris", precio: "$50.000", imagen: "Torta_arco_iris.jpg" },
   { nombre: "Brownie", precio: "$15000", imagen: "brownie.jpg" },
   { nombre: "Pepas", precio: "$1000", imagen: "Pepas.jpg" },
   { nombre: "Budin inglés", precio: "$5000", imagen: "Budin inglés.jpg" },
