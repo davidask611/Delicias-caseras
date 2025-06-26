@@ -2,23 +2,25 @@
 const productos = [
   // { nombre: "Torta arco iris", precio: "$50.000", imagen: "Torta_arco_iris.jpg" },
   { nombre: "Brownie", precio: "$15000", imagen: "brownie.jpg" },
-  { nombre: "Pepas", precio: "$1000", imagen: "Pepas.jpg" },
+  { nombre: "Pepas", precio: "$1100", imagen: "Pepas.jpg" },
   { nombre: "Budin inglés", precio: "$5000", imagen: "Budin inglés.jpg" },
-  { nombre: "Pastaflora", precio: "$9100", imagen: "Pasta_frola.jpg" },
-  { nombre: "Budin de banana con nuez", precio: "$6500", imagen: "budin.jpg" },
-  { nombre: "Cupcakes de zanahoria y naranja con nuez", precio: "$8500 La docena", imagen: "Cupcakes de zanahoria y naranja con nuez.jpg" },
+  { nombre: "Pastaflora", precio: "$9500", imagen: "Pasta_frola.jpg" },
+  { nombre: "Budin de banana con nuez", precio: "$6700", imagen: "budin.jpg" },
+  { nombre: "Cupcakes de zanahoria y naranja con nuez", precio: "$8900 La docena", imagen: "Cupcakes de zanahoria y naranja con nuez.jpg" },
   { nombre: "tarta de durazno", precio: "$17.000", imagen: "tarta de durazno.jpg" },
-  { nombre: "tarta de ricota", precio: "$17.000", imagen: "tarta de ricota.jpg" },
-  { nombre: "Budin de limón con glase", precio: "$6000", imagen: "Budin de limón con glase.jpg" },
+  { nombre: "tarta de ricota", precio: "$20.000", imagen: "tarta de ricota.jpg" },
+  { nombre: "Budin de limón con glase", precio: "$6500", imagen: "Budin de limón con glase.jpg" },
   { nombre: "Pancitos chips", precio: "$6500", imagen: "Pancitos chips.jpg" },
   { nombre: "Pan arabe", precio: "$1000 6 unidades", imagen: "Pan arabe.jpg" },
+  { nombre: "Budin 4 cuartos", precio: "$2800", imagen: "Budin 4 cuartos.jpg" },
+  { nombre: "Lemon pie", precio: "$15000", imagen: "Lemonpie.jpg" },
 ];
 
 // Array de productos saludables
 const saludables = [
   { nombre: "Budin de banana con nuez con harina integral", precio: "$7500", imagen: "Budin de banana con nuez.jpg" },
-  { nombre: "Galletas de avena con harina integral", precio: "$3000", imagen: "Galletas de avena y harina integral.jpg" },
-  { nombre: "Cupcakes de zanahoria y naranja con nuez con harina integral", precio: "$700", imagen: "Cupcakes de zanahoria y naranja con nuez.jpg" },
+  { nombre: "Galletas de avena con harina integral", precio: "$4300", imagen: "Galletas de avena y harina integral.jpg" },
+  { nombre: "Cupcakes de zanahoria y naranja con nuez con harina integral", precio: "$9500 La docena", imagen: "Cupcakes de zanahoria y naranja con nuez.jpg" },
 ];
 
 // Variables del carrito
