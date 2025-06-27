@@ -3,7 +3,7 @@ const productos = [
   // { nombre: "Torta arco iris", precio: "$50.000", imagen: "Torta_arco_iris.jpg" },
   { nombre: "Brownie", precio: "$15000", imagen: "brownie.jpg" },
   { nombre: "Pepas", precio: "$1100", imagen: "Pepas.jpg" },
-  { nombre: "Budin inglés", precio: "$5000", imagen: "Budin inglés.jpg" },
+  { nombre: "Budin inglés", precio: "$4000", imagen: "Budin inglés.jpg" },
   { nombre: "Pastaflora", precio: "$9500", imagen: "Pasta_frola.jpg" },
   { nombre: "Budin de banana con nuez", precio: "$6700", imagen: "budin.jpg" },
   { nombre: "Cupcakes de zanahoria y naranja con nuez", precio: "$8900 La docena", imagen: "Cupcakes de zanahoria y naranja con nuez.jpg" },
